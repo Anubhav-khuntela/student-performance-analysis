@@ -1,44 +1,95 @@
-# 📊 Student Performance Analysis Dashboard
+# 📊 Student Performance Analysis using Python
 
-A web-based dashboard to analyze student performance in **Math, Reading, and Writing** using data visualization and basic statistical insights.
-
----
-
-## 🚀 Project Overview
-
-This project transforms raw student performance data into an interactive and visually appealing web dashboard. It helps in understanding trends, comparing subject performance, and deriving meaningful insights.
+This project focuses on analyzing student performance data using Python in a Jupyter Notebook. The goal is to extract meaningful insights from the dataset and understand patterns in student scores across different subjects.
 
 ---
 
-## 🧠 Features
+## 🎯 Objective
 
-* 📘 Displays **average scores** for:
-
-  * Math
-  * Reading
-  * Writing
-
-* 📊 Interactive **bar chart visualization** using Chart.js
-
-* 🎨 Clean and responsive UI
-
-* ⚡ Lightweight and fast (pure HTML, CSS, JavaScript)
+* Analyze student performance in **Math, Reading, and Writing**
+* Identify relationships between subjects
+* Perform statistical analysis on the dataset
+* Visualize data using graphs and charts
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tools & Technologies
 
-* **Frontend:** HTML, CSS, JavaScript
-* **Visualization:** Chart.js
-* **Data Source:** Kaggle
+* **Python**
+* **Jupyter Notebook**
+* **Libraries Used:**
 
-## 📊 Data Analysis
+  * Pandas
+  * NumPy
+  * Matplotlib
+  * Seaborn
 
-The data was analyzed using a Jupyter Notebook, where:
+---
 
-* Averages were calculated
-* Relationships between subjects were explored
-* Insights were derived from student performance trends
+## 📁 Dataset Description
+
+The dataset contains information about student performance, including:
+
+* Gender
+* Race/Ethnicity
+* Parental Level of Education
+* Lunch Type
+* Test Preparation Course
+* Math Score
+* Reading Score
+* Writing Score
+
+---
+
+## 🔍 Analysis Performed
+
+* ✅ Data Cleaning and Preprocessing
+* ✅ Handling missing or inconsistent data
+* ✅ Calculation of mean, median, and variance
+* ✅ Subject-wise performance comparison
+* ✅ Correlation analysis between scores
+* ✅ Visualization using:
+
+  * Bar charts
+  * Pie charts
+  * Histograms
+
+---
+
+## 📈 Key Insights
+
+* Students tend to perform similarly in **Reading and Writing**
+* Math scores show higher variation compared to other subjects
+* Test preparation courses positively impact performance
+* Certain demographic factors influence scores
+
+---
+
+## ▶️ How to Run
+
+1. Install required libraries:
+
+   ```
+   pip install pandas numpy matplotlib seaborn
+   ```
+
+2. Open Jupyter Notebook:
+
+   ```
+   jupyter notebook
+   ```
+
+3. Run the notebook file:
+
+   ```
+   student_performance_analysis.ipynb
+   ```
+
+---
+
+## 📌 Conclusion
+
+This analysis provides a clear understanding of student performance trends and highlights key factors affecting academic outcomes. The insights can be useful for improving educational strategies and student support systems.
 
 ---
 
@@ -48,12 +99,9 @@ The data was analyzed using a Jupyter Notebook, where:
 
 ---
 
-## ⭐ Contribute
+## ⭐ Notes
 
-Feel free to fork this repo and improve the project!
+* This project is part of academic coursework
+* The notebook contains step-by-step analysis with explanations
 
 ---
-
-## 📜 License
-
-This project is open-source and available under the MIT License.
